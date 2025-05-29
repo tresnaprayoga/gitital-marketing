@@ -53,6 +53,11 @@ const Service = [
   },
 ];
 
+const Booking = {
+  TagLine: 'Yuk Naikan Bisnis Kamu Sekarang !',
+  Tagbutton: 'Booking Now',
+};
+
 function dataHeroSection() {
   return heroSectiondata;
 }
@@ -69,4 +74,8 @@ function ServiceProduk() {
   return Service;
 }
 
-export { dataHeroSection, DataAbout, Visi, ServiceProduk };
+function BookingNow() {
+  return Booking;
+}
+
+export { dataHeroSection, DataAbout, Visi, ServiceProduk, BookingNow };

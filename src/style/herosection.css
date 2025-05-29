@@ -44,7 +44,7 @@
   margin-bottom: 1rem;
   font-family: 'Poppins';
   font-weight: bold;
-  color: rgba(235, 238, 238, 0.559);
+  color: rgba(243, 247, 7, 0.559);
 }
 
 .slide-content p {
@@ -54,11 +54,18 @@
 }
 
 .button-order {
-  background-color: rgb(4, 93, 167);
+  background-color: rgb(210, 233, 5);
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
   width: 200px;
+  border: none;
+  outline: none;
+}
+
+.button-order:hover {
+  background-color: indigo;
+  transform: translateY(-2px);
 }
 
 .button-order p {

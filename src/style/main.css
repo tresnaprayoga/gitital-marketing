@@ -3,6 +3,7 @@
 @import './AboutUs.css';
 @import './visi.css';
 @import './produkService.css';
+@import './bookingNow.css';
 
 * {
   padding: 0;
