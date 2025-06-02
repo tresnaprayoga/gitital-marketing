@@ -1,4 +1,4 @@
-.navbar {
+.navbar-digital-marketing {
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -9,29 +9,29 @@
   background-color: white;
 }
 
-.navbar-logo {
+.navbar-logo-digital-marketing {
   font-size: 24px;
   font-weight: bold;
   color: #2a2a72;
   width: 100px;
 }
-.navbar-logo img {
+.navbar-logo-digital-marketing img {
   width: 100%;
 }
 
-.navbar-links {
+.links-digital-marketing {
   display: flex;
   gap: 30px;
 }
 
-.navbar-links a {
+.links-digital-marketing a {
   text-decoration: none;
   color: rgb(20, 20, 20);
   position: relative;
   font-family: 'Poppins';
 }
 
-.navbar-links a:hover::after {
+.links-digital-marketing a:hover::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -66,7 +66,7 @@
 }
 
 /* Hamburger Menu Icon */
-.hamburger {
+.hamburger-digital-marketing {
   display: none;
   flex-direction: column;
   gap: 5px;
@@ -84,15 +84,15 @@
 
 /* Tablet (max-width: 1024px) */
 @media (min-width: 1024px) {
-  .navbar {
+  .navbar-digital-marketing {
     justify-content: space-around;
   }
 
-  .navbar-links {
+  .links-digital-marketing {
     gap: 20px;
   }
 
-  .navbar-links a {
+  .links-digital-marketing a {
     font-size: 14px;
   }
 
@@ -104,15 +104,15 @@
 
 /* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
-  .navbar {
+  .navbar-digital-marketing {
     flex-wrap: wrap;
   }
 
-  .hamburger {
+  .hamburger-digital-marketing {
     display: flex;
   }
 
-  .navbar-links {
+  .links-digital-marketing {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -121,36 +121,24 @@
     gap: 15px;
   }
 
-  .navbar-links.active {
+  .links-digital-marketing.active {
     display: flex;
   }
 
-  .navbar-links a {
+  .links-digital-marketing a {
     font-size: 16px;
-  }
-
-  .navbar-buttons {
-    width: 100%;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 10px;
-  }
-
-  .navbar-buttons button {
-    padding: 10px 20px;
-    font-size: 14px;
   }
 }
 
 /* Hamburger open effect */
-.hamburger.open .bar:nth-child(1) {
+.hamburger-digital-marketing.open .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
 
-.hamburger.open .bar:nth-child(2) {
+.hamburger-digital-marketing.open .bar:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger.open .bar:nth-child(3) {
+.hamburger-digital-marketing.open .bar:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }

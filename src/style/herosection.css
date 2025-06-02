@@ -1,4 +1,4 @@
-.hero-section {
+.hero-section-digital-marketing {
   position: relative;
   width: 100%;
   height: 95vh;
@@ -6,13 +6,13 @@
   margin-top: -60px;
 }
 
-.slider {
+.slider-digital-marketing {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.slide {
+.slide-digital-marketing {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,11 +24,11 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.slide.active {
+.slide-digital-marketing.active {
   opacity: 1;
 }
 
-.slide-content {
+.slide-content-digital-marketing {
   position: absolute;
   top: 50%;
   left: 70%;
@@ -39,7 +39,7 @@
   width: 100%;
 }
 
-.slide-content h1 {
+.slide-content-digital-marketing h1 {
   font-size: 4rem;
   margin-bottom: 1rem;
   font-family: 'Poppins';
@@ -47,13 +47,13 @@
   color: rgba(243, 247, 7, 0.559);
 }
 
-.slide-content p {
+.slide-content-digital-marketing p {
   font-size: 1.2rem;
   font-family: 'Poppins';
   font-weight: normal;
 }
 
-.button-order {
+.button-order-digital-marketing {
   background-color: rgb(210, 233, 5);
   padding: 10px;
   margin-top: 10px;
@@ -63,17 +63,17 @@
   outline: none;
 }
 
-.button-order:hover {
+.button-order-digital-marketing:hover {
   background-color: indigo;
   transform: translateY(-2px);
 }
 
-.button-order p {
+.button-order-digital-marketing p {
   color: white;
   font-size: 20px;
 }
 
-.slider-btn {
+.slider-btn-digital-marketing {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -85,15 +85,15 @@
   font-size: 1.5rem;
 }
 
-.slider-btn.prev {
+.slider-btn-digital-marketing.prev {
   left: 1rem;
 }
 
-.slider-btn.next {
+.slider-btn-digital-marketing.next {
   right: 1rem;
 }
 
-.slider-dots {
+.slider-dots-digital-marketing {
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -102,7 +102,7 @@
   gap: 0.5rem;
 }
 
-.dot {
+.dot-digital-marketing {
   width: 10px;
   height: 10px;
   background: rgba(255, 255, 255, 0.5);
@@ -110,7 +110,7 @@
   cursor: pointer;
 }
 
-.dot.active {
+.dot-digital-marketing.active {
   background: #fff;
 }
 
@@ -119,12 +119,12 @@
     top: 50%;
     left: 50%;
   }
-  .slide-content h1 {
+  .slide-content-digital-marketing h1 {
     font-size: 2rem;
     color: rgb(5, 167, 212);
   }
 
-  .slide-content p {
+  .slide-content-digital-marketing p {
     font-size: 1rem;
   }
 

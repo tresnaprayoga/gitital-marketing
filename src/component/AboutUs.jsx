@@ -1,5 +1,3 @@
-import React from 'react';
-
 function ContentAbout({ title, description, image }) {
   return (
     <section className='content-section' data-aos-duration='1000' data-aos-delay='100'>

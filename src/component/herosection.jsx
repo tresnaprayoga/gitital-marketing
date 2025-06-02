@@ -24,29 +24,29 @@ const HeroSection = ({ slides }) => {
   };
 
   return (
-    <section className='hero-section'>
-      <div className='slider'>
+    <section className='hero-section-digital-marketing'>
+      <div className='slider-digital-marketing'>
         {slides.map((slide, index) => (
-          <div key={index} className={`slide ${index === currentSlide ? 'active' : ''}`} style={{ backgroundImage: `url(${slide.image})` }}>
-            <div className='slide-content'>
+          <div key={index} className={`slide-digital-marketing ${index === currentSlide ? 'active' : ''}`} style={{ backgroundImage: `url(${slide.image})` }}>
+            <div className='slide-content-digital-marketing'>
               <h1>{slide.title}</h1>
               <p>{slide.description}</p>
-              <button className='button-order'>
+              <button className='button-order-digital-marketing'>
                 <p>Get Started</p>
               </button>
             </div>
           </div>
         ))}
       </div>
-      <button className='slider-btn prev' onClick={goToPrev}>
+      <button className='slider-btn-digital-marketing prev' onClick={goToPrev}>
         &lt;
       </button>
-      <button className='slider-btn next' onClick={goToNext}>
+      <button className='slider-btn-digital-marketing next' onClick={goToNext}>
         &gt;
       </button>
-      <div className='slider-dots'>
+      <div className='slider-dots-digital-marketing'>
         {slides.map((_, index) => (
-          <span key={index} className={`dot ${index === currentSlide ? 'active' : ''}`} onClick={() => goToSlide(index)}></span>
+          <span key={index} className={`dot-digital-marketing ${index === currentSlide ? 'active' : ''}`} onClick={() => goToSlide(index)}></span>
         ))}
       </div>
     </section>

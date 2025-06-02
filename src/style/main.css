@@ -4,6 +4,9 @@
 @import './visi.css';
 @import './produkService.css';
 @import './bookingNow.css';
+@import './listcustomer.css';
+@import './newsdigitalmarketing.css';
+@import './footer.css';
 
 * {
   padding: 0;

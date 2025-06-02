@@ -1,15 +1,15 @@
-.produc-container {
+.produc-container-digital-marketing {
   width: 100%;
   margin: 70px auto;
 }
 
-.produc-container h2 {
+.produc-container-digital-marketing h2 {
   font-family: 'Poppins';
   font-weight: normal;
   text-align: center;
   color: rgb(5, 95, 230);
 }
-.produc-container p {
+.produc-container-digital-marketing p {
   font-family: 'Poppins';
   font-weight: normal;
   text-align: center;
@@ -21,7 +21,6 @@
 }
 
 .item-produk {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -49,21 +48,22 @@
 /* ≥768px: 3 kolom */
 @media (min-width: 768px) {
   .list-constainer {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
   }
   .item-produk {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    margin: auto;
   }
 }
 
 /* ≥992px: 4 kolom */
 @media (min-width: 992px) {
   .list-constainer {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
   }
 }
 
-.produc-container {
+.produc-container-digital-marketing {
   width: 70%;
 }
 
@@ -74,10 +74,9 @@
 .gallery-item {
   overflow: hidden;
   border-radius: 12px;
-  width: 40%;
+  width: 100%;
   /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   transition: transform 0.5s ease;
-
   margin: auto;
 }
 

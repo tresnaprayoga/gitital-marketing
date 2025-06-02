@@ -26,7 +26,7 @@ const VisiMisi = {
 
 const Service = [
   {
-    image: './8.png',
+    image: './8.jpg',
     title: 'Email marketing',
   },
   {
@@ -58,6 +58,62 @@ const Booking = {
   Tagbutton: 'Booking Now',
 };
 
+const listDataCustomer = [
+  {
+    image: '/logo3.ico',
+    title: 'Title',
+    author: 'SubTitle',
+    showPlayButton: true,
+  },
+  {
+    image: '/logo3.ico',
+    title: 'Title',
+    author: 'SubTitle',
+    showPlayButton: false,
+  },
+  {
+    image: '/logo3.ico',
+    title: 'Title',
+    author: 'SubTitle',
+    showPlayButton: false,
+  },
+  {
+    image: '/logo3.ico',
+    title: 'Title',
+    author: 'SubTitle',
+    showPlayButton: false,
+  },
+  {
+    image: '/logo3.ico',
+    title: 'Title',
+    author: 'SubTitle',
+    showPlayButton: false,
+  },
+];
+
+const NewsDigitalMarketing = [
+  {
+    title: 'Tren Digital Marketing 2025',
+    description:
+      'Bright Digital adalah agensi digital marketing No. 1 pilihan bisnis masa kini. Sejak berdiri pada 1 Januari 2020, kami telah membantu ratusan brand tumbuh dan bersinar melalui strategi digital yang kreatif, akurat, dan terukur. Dengan tim yang dinamis dan berpengalaman, kami hadir sebagai partner yang siap mendampingi brand Anda bersinar di dunia digital.',
+    image: './2.jpg',
+  },
+
+  {
+    title: 'Tren Digital Marketing 2025',
+    description:
+      'Bright Digital adalah agensi digital marketing No. 1 pilihan bisnis masa kini. Sejak berdiri pada 1 Januari 2020, kami telah membantu ratusan brand tumbuh dan bersinar melalui strategi digital yang kreatif, akurat, dan terukur. Dengan tim yang dinamis dan berpengalaman, kami hadir sebagai partner yang siap mendampingi brand Anda bersinar di dunia digital.',
+    image: './2.jpg',
+  },
+
+  {
+    title: 'Tren Digital Marketing 2025',
+    description:
+      'Bright Digital adalah agensi digital marketing No. 1 pilihan bisnis masa kini. Sejak berdiri pada 1 Januari 2020, kami telah membantu ratusan brand tumbuh dan bersinar melalui strategi digital yang kreatif, akurat, dan terukur. Dengan tim yang dinamis dan berpengalaman, kami hadir sebagai partner yang siap mendampingi brand Anda bersinar di dunia digital.',
+    image: './2.jpg',
+  },
+];
+
 function dataHeroSection() {
   return heroSectiondata;
 }
@@ -78,4 +134,12 @@ function BookingNow() {
   return Booking;
 }
 
-export { dataHeroSection, DataAbout, Visi, ServiceProduk, BookingNow };
+function dataCustomer() {
+  return listDataCustomer;
+}
+
+function NewsInfoDigitalMarketing() {
+  return NewsDigitalMarketing;
+}
+
+export { dataHeroSection, DataAbout, Visi, ServiceProduk, BookingNow, dataCustomer, NewsInfoDigitalMarketing };
